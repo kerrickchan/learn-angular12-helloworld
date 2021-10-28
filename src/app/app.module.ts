@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HelloworldComponent } from './helloworld/helloworld.component';
+import { HelloWorldBindingsComponent } from './hello-world-bindings/hello-world-bindings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloworldComponent
+    HelloworldComponent,
+    HelloWorldBindingsComponent
   ],
   imports: [
     BrowserModule
